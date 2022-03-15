@@ -15,6 +15,7 @@
 		19BFB0FB27E0E03C00035D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BFB0F927E0E03C00035D75 /* LaunchScreen.storyboard */; };
 		19BFB10627E0E03D00035D75 /* TasksWithCompositePatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BFB10527E0E03D00035D75 /* TasksWithCompositePatternTests.swift */; };
 		19BFB11127E0E03D00035D75 /* TasksWithCompositePatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BFB11027E0E03D00035D75 /* TasksWithCompositePatternUITests.swift */; };
+		19BFB12B27E10F9E00035D75 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BFB12A27E10F9E00035D75 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		19BFB10C27E0E03D00035D75 /* TasksWithCompositePatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksWithCompositePatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19BFB11027E0E03D00035D75 /* TasksWithCompositePatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksWithCompositePatternUITests.swift; sourceTree = "<group>"; };
 		19BFB11227E0E03D00035D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BFB12A27E10F9E00035D75 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,10 @@
 		19BFB0EA27E0E03800035D75 /* TasksWithCompositePattern */ = {
 			isa = PBXGroup;
 			children = (
+				19BFB0EF27E0E03800035D75 /* ViewController.swift */,
+				19BFB12A27E10F9E00035D75 /* Task.swift */,
 				19BFB0EB27E0E03800035D75 /* AppDelegate.swift */,
 				19BFB0ED27E0E03800035D75 /* SceneDelegate.swift */,
-				19BFB0EF27E0E03800035D75 /* ViewController.swift */,
 				19BFB0F727E0E03C00035D75 /* Assets.xcassets */,
 				19BFB0F927E0E03C00035D75 /* LaunchScreen.storyboard */,
 				19BFB0FC27E0E03C00035D75 /* Info.plist */,
@@ -261,6 +264,7 @@
 				19BFB0F627E0E03800035D75 /* TasksWithCompositePattern.xcdatamodeld in Sources */,
 				19BFB0EC27E0E03800035D75 /* AppDelegate.swift in Sources */,
 				19BFB0EE27E0E03800035D75 /* SceneDelegate.swift in Sources */,
+				19BFB12B27E10F9E00035D75 /* Task.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
